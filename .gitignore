@@ -1,2 +1,46 @@
-node_modules
+# Dependencies
+node_modules/
+
+# Environment Variables
 .env
+.env.local
+.env.production
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory
+coverage/
+
+# Build output
+build/
+dist/
+
+# Database files
+*.db
+*.sqlite
+
+# Uploads
+uploads/
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Package manager
+package-lock.json  # หากใช้ yarn
+# yarn.lock        # หากใช้ npm
